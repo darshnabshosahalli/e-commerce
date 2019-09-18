@@ -1,0 +1,801 @@
+/* ------------------  Row1 header ------------------ */
+.navbar-inverse {
+	margin-bottom: 0px;
+}
+#navbar-brand {
+    margin-left: 50px;
+}
+.navbar-inverse .navbar-nav>li>.signinbutton:hover .glyphicon{
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav>li>a:hover .glyphicon{
+    color: #fff;
+    background-color: transparent;
+}
+.glyphicon {
+	color: #9d9d9d;
+}
+.fab {
+  height: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #9d9d9d;
+  background-color: transparent;
+  width: 15px;
+  align: right;
+ }
+ /* -------------------------------------- MODAL STYLE ---------------------------- */
+ #modal-header {
+	color: white;
+	background-color: blue;
+	align-content: center;
+}
+#modalButton {
+	background-color: blue;
+	color: white;
+	align-content: center;
+	width: 100%; 
+}
+#modallbl {
+	color: black;
+	font-weight: bold;
+}
+#modallbl1 {
+	color: black;
+	font-weight: bold;
+	margin-left:220px;
+}
+#chkbox {
+	align-content: center;
+}
+/* --------------------------------------------  NAV BAR DROP DOWN ----------------------------------------------- */
+.logo {
+	float: left;
+}
+.navbarcategory {
+  background-color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbarcategory a {
+  float: left;
+  font-size: 12px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdowncategory {
+  float: left;
+  margin-left: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 120px;
+  z-index: 20;
+}
+.dropdowncategory1 {
+  float: left;
+  margin-left: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 120px;
+  z-index: 20;
+}
+.dropdowncategory2 {
+  float: left;
+  margin-left: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 120px;
+  z-index: 20;
+}
+.dropdowncategory3 {
+  float: left;
+  margin-left: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 120px;
+  z-index: 20;
+}
+.dropdownheading1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.dropdownheading {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#electronics {
+	width: 115px;
+}
+#men {
+	width: 80px;
+}
+#women {
+	width: 95px;
+}
+#baby {
+	width:122px;
+}
+.dropdowncategory .dropbtncategory {
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 14px;
+  background-color: transparent;
+  font: inherit;
+  margin: 0;
+  width: 155px;
+  text-align: left;
+}
+.dropbtncategory:hover {
+  background-color: green;
+  color: white;
+}
+.dropbtncategory1:hover {
+  background-color: green;
+}
+.dropdown-contentcategory {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 1200px;
+  position: absolute;
+  left: -475px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-contentcategory1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 1200px;
+  position: absolute;
+  left: -607px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-contentcategory2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 1200px;
+  position: absolute;
+  left: -735px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-contentcategory3 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 1200px;
+  position: absolute;
+  left: -865px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-contentcategory4 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 1200px;
+  position: absolute;
+  left: -995px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdowncategory:hover .dropdown-contentcategory {
+  display: block;
+}
+.dropdowncategory:hover .dropdown-contentcategory1 {
+  display: block;
+}
+.dropdowncategory:hover .dropdown-contentcategory2 {
+  display: block;
+}
+.dropdowncategory:hover .dropdown-contentcategory3 {
+  display: block;
+}
+.dropdowncategory:hover .dropdown-contentcategory4 {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: white;
+}
+
+.column a {
+  float: none;
+  color: black;
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.column a:hover {
+  background-color: #ddd;
+}
+.column a:hover, .dropdowncategory:hover .dropbtncategory {
+  background-color: green;
+  color: white;
+}
+/* -------------------- ROW 3 START ------------------------ */
+#row3 {
+	background-image: url("../images/texture-bw.png");
+	height: 120px;
+}
+.row3col1 {
+	font-size: 30px;
+	font-weight: bold;
+	padding: 35px;
+	text-align: center;
+}
+.active {
+	color: #239f95
+}
+#light {
+	color: #808080;
+	padding-bottom: 15px;
+}
+/*------------------- Bread Crumb ----------------------- */
+.row3col2 {
+		
+	padding: 46px;
+	text-align: center;
+	color: #808080;
+	font-size: 15px;
+}
+#breadcrumb {
+	background-color: transparent;
+}
+#unactivelink {
+	color: #239f95
+}
+#row4 {
+	margin-bottom: 50px;
+}
+/* ------------------  Change Password page -------------------- */
+#row4cp {
+	height: 100%;
+}
+.contact {
+	color: #239f95; 
+}
+/*------------------------------ ROW 6 START --------------------------*/
+#row6 {
+	background-color: #333333;
+	padding : 20px;
+}
+#row6line1 {
+	font-weight: bold;
+	font-size: small;
+	color: #868F96;
+}
+/*------------------------------ ROW 5 START --------------------------*/
+#row5 {
+	background-color: #555555;
+	margin-top: 0px;
+	padding-bottom: 40px;
+}
+.row5col1 {
+	margin-top: 40px;
+	color: #ffffff;
+}
+.boldrow5 {
+	font-weight: bold;
+} 
+#newsletter {
+	width: 89%;
+	margin-left: 0px;
+	height: 27px;
+}
+#kite {
+	color: #ffffff;
+	size: 
+}
+#kitebutton {
+	background-color: #868F96;
+	margin-left: 0px;
+	float: right;
+	border: 1px solid #868F96;
+	cursor: pointer ;
+	width: 11%;
+	box-sizing: border-box;
+	height: 27px;
+}
+.row5col2images {
+	height: 40px;
+}
+.row5col3line2 {
+	color: #868F96;
+	font-weight: normal;
+}
+#row5col3line2 {
+	font-weight: bold;
+} 
+#contactbutton {
+	border: 1px solid #239f95;
+	font-size: x-small;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #239f95;
+	padding: 5px;
+}
+.row5col4images {
+	height: 70px;
+	width: 70px;
+	margin: 4px;
+}
+/* --------------------------------- Contact page --------------------- */
+.map-container {
+    overflow:hidden;
+    margin-top: 80px;
+    position:relative;
+    height:0;
+    width: 100%;
+}
+.map-container iframe {
+ 	width: 100%;
+ 	height: 100%;
+ 	left:0;
+	top:0;
+	position:absolute;   
+}
+.lbl {
+	padding-top: 10px;
+	color: #696969;	
+	width: 200%;
+	font-weight: normal
+}
+.frm 
+{
+	color: #696969;	
+	width: 100%;
+	font-weight: normal;
+}
+.reg {
+	background-color: white; 
+  	color: #239f95; 
+	border: 2px solid #239f95;
+  	text-align: center;
+  	font-weight: bold;
+  	font-size: 12px;
+  	width: 20%;
+  	padding: 8px;
+  	margin-left: 40%;
+  	margin-top: 1%;
+  	border-radius: 0px;
+}
+.regicon {
+	color: #239f95;
+}
+.greenlinks1 {
+	color: green;
+}
+.greenhrline {
+	border: 1px solid green;
+	width: 100px;
+}
+/* --------------------------------- Customer Section ------------------- */
+.custsec {
+	color: green;
+}
+.active {
+	background-color: green;
+}
+.nav-pills > li:hover .custsec{
+    color: white;
+}
+.nav-pills > li:hover .greenlinks1{
+    color: white;
+}
+.nav-pills > li:active .custsec{
+    color: white;
+}
+.nav-pills > li:active .greenlinks1{
+    color: white;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: green;
+}
+.nav > li > a:hover, .nav > li > a:focus .custsec{
+    text-decoration: none;
+    color: white;
+}
+.nav > li > a:hover, .nav > li > a:focus .greenlinks1{
+	text-decoration: none;
+    color: white;
+}
+a:hover, a:focus {
+    color: white;
+    text-decoration: underline;
+}
+a.active {
+    color: white;
+}
+a.active .custsec{
+    color: white;
+}
+/* ---------------------------------- CustomerOrderDetails ------------------------ */
+#cod {
+	color: #808080;
+}
+.coddate {
+	color: black;
+}.table {
+	margin-left: 0px;
+}
+.textcenter {
+	text-align: center;
+}
+.orderimages {
+	height: 60px;
+	width: 60px;
+}
+.lthree {
+	color: #808080;
+	text-align: right;
+	font-weight: normal
+}
+.fthree {
+	color: #808080;
+}
+#shpaddress {
+	color: black;
+}
+.lastrow {
+	margin: 0px 0px 0px 30px;
+}
+/* ----------------------------------- Customer Orders ------------------------------------------- */
+.view {
+	border: 2px solid green;
+	background-color: transparent;
+	color: green;
+	border-radius: 0px;
+}
+/* --------------------------------------- Customer Wishlist ------------------------------------------- */
+.wishlisttext {
+	color: black;
+	font-size: medium;
+}
+.productimages {
+	height: 150px;
+	width: 150px;
+	margin-top: 20px;
+	margin-left: 0px;
+}
+.productdesc {
+	font-weight: bold;
+	margin-left: 0px;
+	margin-top: 20px;
+}
+.price {
+	font-weight: normal
+}
+.price1 {
+	font-weight: normal;
+	margin-top: 40px;
+}
+.strike {
+	color: #A9A9A9;
+}
+.productline {
+	width: 90%;
+	margin-left: 25px;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 270px;
+  left: 0px;
+  background-color: #33BA91;
+  color: white;
+  font-weight: white;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.bottom-left-down {
+	position: absolute;
+	bottom: 220px;
+	left: 0px;
+	background-color: #3CC0CD;
+	color: white;
+	font-weight: white;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 13px;	
+}
+/* --------------------------------- Error Page ------------------------- */
+#green_button {
+    color: #33D8C1;
+    border: 1px solid #33D8C1;
+    border-radius: 0px;
+}
+#row4errorpage {
+	margin-top: 35px;
+	width: 50%;
+}
+.wrapper{
+    display:in-line;
+    text-align:center;
+}
+/* --------------------------------- index -------------------------------------- */
+.caroselimages {
+	height:250px;
+	width: 100%;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.panelrows {
+    font-size: 17px;
+    color: white;
+    background-color: black;
+}
+.paneltext {
+	padding-left: 0px;
+    padding-right: 0px;
+    border: 1px solid black;
+    margin: 0px 0px 0px 0px;
+}
+.panel-default: {
+    display: inline-flex;
+}
+.card {
+	border: 1px solid black; 
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.viewbutton {
+	width: 100%;
+}
+.bannerimages {
+	width: 100%;
+	height: 100%;
+	padding-bottom: 20px;
+}
+.card-img-top {
+	width: 170px;
+	height: 250px;
+}
+/* ------------------------------ Mobiles Page -------------------------- */
+#home {
+	color: #239f95;
+}
+.smalltext {
+	font-size: 14px;
+	color: #A9A9A9;
+}
+.underline {
+	border: 1px solid #239f95;
+	width: 10%;
+	margin: 0px;
+}
+.offersrow {
+	margin-top: 20px;
+	overflow-x: hidden;
+}
+.exclusiveoffer {
+	margin-top: 30px;
+}
+.offercard {
+	width: 90%;
+}
+.mostviewed {
+	width: 8%;
+}
+.card {
+	border: 1px solid black; 
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.viewbutton {
+	width: 100%;
+}
+.gallerytext {
+	font-size: 12px;
+}
+.refinehr {
+	width: 22%;
+}
+.explorehr {
+	width: 12%;
+}
+.refinepanel {
+	margin-top: 30px;
+}
+.exploremobile {
+	margin-top: 30px;
+	border: 1px solid white;
+}
+.pagenavigation {
+	margin-left: 52%;
+}
+.page-link:focus, .page-link:hover {
+	background-color: #239f95;
+	color: white;
+}
+/* --------------------------- Signinsignupform ---------------------- */
+/* ------------------------SigninSignUpForm-------------------- */
+/* -------------------- ROW 3 START ------------------------ */
+#row3 {
+	background-image: url("../images/texture-bw.png");
+	height: 120px;
+}
+.row3col1 {
+	font-size: 30px;
+	font-weight: bold;
+	padding: 35px;
+	text-align: center;
+}
+.active {
+	color: #239f95
+}
+#light {
+	color: #808080;
+	padding-bottom: 15px;
+}
+/*------------------- Bread Crumb ----------------------- */
+.row3col2 {
+		
+	padding: 46px;
+	text-align: center;
+	color: #808080;
+	font-size: 15px;
+}
+#breadcrumb {
+	background-color: transparent;
+}
+#unactivelink {
+	color: #239f95
+}
+#row4 {
+	margin-bottom: 50px;
+}
+/* ---------------------REGISTRATION FROM START----------------------- */
+.row4col1 {
+	margin-right: 5px;
+}
+.row4col1row1 {
+	padding-left: 25px;
+}
+#ac {
+	font-size: x-large;
+	font-weight: bold;
+}
+#lastLine {
+	color: #696969;
+}
+.contact {
+	color: #239f95; 
+}
+.lbl {
+	padding-top: 10px;
+	color: #696969;	
+	width: 200%;
+	font-weight: normal
+}
+.frm 
+{
+	color: #696969;	
+	width: 100%;
+	font-weight: normal;
+}
+.reg {
+	background-color: white; 
+  	color: #239f95; 
+	border: 2px solid #239f95;
+  	text-align: center;
+  	font-weight: bold;
+  	font-size: 12px;
+  	width: 20%;
+  	padding: 8px;
+  	margin-left: 40%;
+  	margin-top: 1%;
+  	border-radius: 0px;
+}
+.regicon {
+	color: #239f95;
+}
+#endline {
+	width: 100%;
+}
+/* ---------- SIGN IN FROM ----------------- */
+#signin {
+	padding-top: 35px;
+	padding-right: 5px;
+}
+#ac1 {
+	font-size: x-large;
+	font-weight: bold;
+	padding-left: 20px;
+}
+#signinaccess {
+	color: #696969;
+}
+.lblsignin {
+	color: #696969;	
+	font-weight: normal;
+	padding-top: 15px;
+}
+#frmsignin {
+	width: 49%;
+}
+#regsignin {
+	background-color: white; 
+  	color: #239f95; 
+	border: 1px solid #239f95;
+  	text-align: center;
+  	font-weight: bold;
+  	font-size: 12px;
+  	position: absolute;
+  	left: 65%;
+  	top: 610px;
+  	border-radius: 0px;	
+}
+#regiconsignin {
+	color: #239f95;
+}
+/* ---------------------------- ShoppingCart ------------------------ */
+#cod {
+	color: #808080;
+	margin-top: 55px;
+	font-size: 20px;
+}
+.tablerow {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.panelbtn {
+	width: 100%;
+	margin-top: 0px;
+	background-color: #DCDCDC;
+	height: 80px;
+}
+.nextbutton {
+	background-color: white; 
+  	color: #239f95; 
+	border: 1px solid #239f95;
+  	text-align: center;
+  	font-weight: bold;
+  	font-size: 12px;
+  	padding: 10px;
+  	padding-left: 20px;
+  	padding-right: 20px;
+  	font-weight: bold;
+  	font-size: 10px;
+  	margin-top: 20px;
+}
+.recimages {
+	height: 100%;
+	width: 100%;
+	margin-top: 21px;
+}
+.left1 {
+	background-color: #696969;
+	color: white;
+}
+.right1 {
+	position: relative;
+	left: 57%;
+}
+.ordleft {
+	border: 1px solid #A9A9A9;
+	margin-bottom: 0px;
+}
+.crt {
+	margin-top: 26px;
+	font-size: 15px;
+	color: #808080;
+}
